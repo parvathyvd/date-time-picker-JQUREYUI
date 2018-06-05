@@ -1,0 +1,52 @@
+body {
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  width: 100%;
+  font-size: 1.2rem;
+  color: #787878; }
+
+.template__wrapper {
+  width: calc(100% - 20rem);
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(pink), to(#e84f699e));
+  background: -webkit-linear-gradient(top, pink, #e84f699e);
+  background: -o-linear-gradient(top, pink, #e84f699e);
+  background: linear-gradient(to bottom, pink, #e84f699e);
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden; }
+  @media (max-width: 37.5em) {
+    .template__wrapper {
+      width: calc(100% - 0rem);
+      padding: 0; } }
+  .template__wrapper input {
+    padding: 1rem 2rem;
+    font-size: inherit; }
+
+select {
+  width: 8rem;
+  height: 2rem;
+  font-size: inherit;
+  color: #bb6b79; }
+
+button {
+  background: -webkit-gradient(linear, left top, left bottom, from(pink), to(#e84f699e));
+  background: -webkit-linear-gradient(top, pink, #e84f699e);
+  background: -o-linear-gradient(top, pink, #e84f699e);
+  background: linear-gradient(to bottom, pink, #e84f699e);
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: inherit;
+  border-radius: .3rem; }

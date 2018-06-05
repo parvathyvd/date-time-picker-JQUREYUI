@@ -1,0 +1,55 @@
+@import 'variables';
+@import 'components';
+@import 'mixin';
+@import 'base';
+
+body{
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    width: 100%;
+    font-size: 1.2rem;
+    color:rgb(120, 120, 120);
+
+
+}
+.template__wrapper{
+    width: calc(100% - 20rem);
+
+    
+    margin: 0 auto;
+    background: linear-gradient(to bottom, pink ,#e84f699e);
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+
+    @include respond(phone){
+        width: calc(100% - 0rem);
+        padding: 0;
+
+
+    }
+    
+
+    input{
+        padding: 1rem 2rem;
+        font-size: inherit;
+
+    }
+}
+select{
+    width: 8rem;
+    height: 2rem;
+    font-size: inherit;
+    color: rgb(187, 107, 121);
+}
+button{
+    background: linear-gradient(to bottom, pink ,#e84f699e);
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: inherit;
+    border-radius: .3rem;
+
+}
